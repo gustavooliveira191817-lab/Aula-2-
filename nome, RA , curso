@@ -1,0 +1,15 @@
+// Gustavo silva de oliveira - exercio 1
+import  java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+    Scanner e=new Scanner(System.in);
+    String nome , ra , curso;
+    System.out.println("informe seu nome por completo");
+    nome= e.nextLine();
+    System.out.println("informe seu RA");
+    ra= e.nextLine();
+    System.out.println("informe seu curso");
+    curso= e.nextLine();
+    System.out.print(" o aluno "+ nome + " do documento: "+ ra + " está cursando "+ curso  ) ;
+    }
+}
