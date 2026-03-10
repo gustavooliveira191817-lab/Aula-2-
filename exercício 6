@@ -1,0 +1,22 @@
+public class Main {
+  public static void main(String args[]) {
+  
+    System.out.println("(20 - 15)/2");
+    int exe1 = (20 - 15)/2;
+    System.out.println("resultado é " + exe1);
+System.out.println("----------------------------");
+    System.out.println("2^(5/20) + 30/(15^2)");
+    double exe2 = Math.pow(2, (5/20)) + 30 / Math.pow(15, 2);
+    System.out.printf("resultado é %.2f%n", exe2);
+System.out.println("----------------------------");
+    System.out.println("35 / (6 + 2)");
+    int exe3 = 35 / (6 + 2);
+    System.out.println("o resultado é "+  exe3);
+    System.out.println("----------------------------");
+       System.out.println("23 modulo 4");
+
+    int resultado = 23 % 4;
+
+    System.out.println("O resto da divisão é " + resultado);
+  }
+}
