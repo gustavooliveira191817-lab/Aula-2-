@@ -1,0 +1,22 @@
+public class Main {
+  public static void main(String args[]) {
+
+    System.out.println("((120 - 30) == (3^2))");
+    boolean r1 = (120 - 30) == Math.pow(3, 2);
+    System.out.println("Resultado: " + r1);
+
+    System.out.println("!((20 % 4) == 1) || (9 != 9)");
+    boolean r2 = !((20 % 4) == 1) || (9 != 9);
+    System.out.println("Resultado: " + r2);
+
+    System.out.println("(5 % 2) > 3");
+    boolean r3 = (5 % 2) > 3;
+    System.out.println("Resultado: " + r3);
+
+    System.out.println("(a == A)");
+    char a = 'a';
+    char A = 'A';
+    boolean r4 = (a == A);
+    System.out.println("Resultado: " + r4);
+  }
+}
