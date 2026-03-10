@@ -1,0 +1,12 @@
+public class Main {
+  public static void main(String args[]) {
+
+    System.out.println(" nota 1 = 8.0,nota 2= 7.5,nota 3= 4.5 e nota 4= 9.");
+     double mediaf = (8.0 + 7.5 + 4.5 + 9)/2;
+     System.out.println("a media finnal do aluno é " + mediaf);
+   if (mediaf  > 10) {
+       System.out.println( "por tanto o final é 10");
+}
+
+  }
+}
